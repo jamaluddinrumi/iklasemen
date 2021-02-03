@@ -71,9 +71,6 @@ export default {
         user: {
             type: Object,
         },
-        customers: {
-            type: Array,
-        },
         users: {
             type: Array,
         },

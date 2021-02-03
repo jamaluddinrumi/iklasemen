@@ -4,9 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\API\TeamController;
-use App\Http\Controllers\API\CustomerController;
 use App\Http\Controllers\API\KlasemenController;
-use App\Http\Controllers\API\NutritionController;
 use App\Http\Controllers\API\PertandinganController;
 
 /*
