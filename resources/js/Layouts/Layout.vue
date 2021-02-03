@@ -54,6 +54,12 @@
                     justify="center"
                     class="py-6 font-bold text-sm opacity-50 hover:opacity-100 transition-opacity"
                 >
+                    <logo></logo>
+                </v-row>
+                <v-row
+                    justify="center"
+                    class="py-6 font-bold text-sm opacity-50 hover:opacity-100 transition-opacity"
+                >
                     <v-icon small class="mr-1">fas fa-copyright</v-icon>
                     {{ new Date().getFullYear() }}
                     {{ $vuetify.lang.t("$vuetify.company") }}
@@ -108,9 +114,9 @@
                     <v-icon v-else small class="-ml-2">fas fa-sun</v-icon>
                 </template>
             </v-switch>
-            <v-btn icon>
+            <!-- <v-btn icon>
                 <v-icon small>fas fa-bell</v-icon>
-            </v-btn>
+            </v-btn> -->
             <!-- <inertia-link href="/profile">
                 <v-btn icon>
                     <v-icon small>fas fa-user</v-icon>
@@ -192,10 +198,12 @@
 </template>
 <script>
 import CountryFlag from "vue-country-flag";
+import Logo from "@/Components/Image/Logo";
 
 export default {
     components: {
         CountryFlag,
+        Logo,
     },
     props: {},
     data() {
@@ -217,21 +225,15 @@ export default {
             return [
                 {
                     id: 0,
-                    title: this.$vuetify.lang.t("$vuetify.title.dashboard"),
+                    title: this.$vuetify.lang.t("$vuetify.title.rankings"),
                     href: "/dashboard",
-                    icon: "fas fa-home",
+                    icon: "fas fa-trophy",
                 },
                 {
                     id: 1,
-                    title: this.$vuetify.lang.t("$vuetify.title.nutrition"),
-                    href: "/nutrition",
-                    icon: "fas fa-utensils",
-                },
-                {
-                    id: 2,
-                    title: this.$vuetify.lang.t("$vuetify.title.customer"),
-                    href: "/customer",
-                    icon: "fas fa-user",
+                    title: this.$vuetify.lang.t("$vuetify.title.matches"),
+                    href: "/pertandingan",
+                    icon: "fas fa-futbol",
                 },
             ];
         },

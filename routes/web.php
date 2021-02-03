@@ -2,10 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\CustomerController;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LanguageController;
-use App\Http\Controllers\NutritionController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PertandinganController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,9 +25,7 @@ Route::middleware('auth:sanctum', 'verified')->group(function () {
 
     Route::get('/profile', [ProfileController::class, 'index'])->name('profile.index');
 
-    Route::get('/customer', [CustomerController::class, 'index'])->name('customer.index');
-
-    Route::get('/nutrition', [NutritionController::class, 'index'])->name('customer.index');
-
     Route::post('/lang/{locale}', [LanguageController::class, 'switch'])->name('language.switch');
+
+    Route::get('/pertandingan', [PertandinganController::class, 'index'])->name('pertandingan.index');
 });

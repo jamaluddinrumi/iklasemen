@@ -78,7 +78,7 @@
         "customersNutritions": "Nutrisi Customer",
         "actions": "Tindakan",
         "nutritions": "Nutrisi",
-        "company": "PT Abc Def, tbk",
+        "company": "LPKN",
         "reload": "Muat Ulang",
         "delete": "Hapus",
         "cancel": "Batal",
@@ -97,9 +97,10 @@
         "negativeTrend": "Tren Negatif",
         "title": {
             "dashboard": "Dashboard",
-            "customer": "Customer",
             "profile": "Profil",
-            "nutrition": "Nutrisi"
+            "matches": "Pertandingan",
+            "rankings": "Klasemen",
+            "test": "Tes"
         },
         "customer": {
             "customer": "Customer",
@@ -131,8 +132,8 @@
             "successfullyDeleted": "Nutrisi untuk {0} telah berhasil dihapus",
             "successfullyEdited": "Nutrisi untuk {0} telah berhasil diubah",
             "successfullyAdded": "Nutrisi untuk {0} telah berhasil ditambahkan",
-            "created_at": "Dibuat pada",
-            "updated_at": "Terakhir diubah pada",
+            "createdAt": "Dibuat pada",
+            "updatedAt": "Terakhir diubah pada",
             "downloadPdfSummary": "PDF"
         },
         "profile": {
@@ -148,6 +149,24 @@
             "currentPassword": "Password Saat Ini",
             "newPassword": "Password Baru",
             "confirmPassword": "Konfirmasi Password"
-        }
+        },
+        "match": "Pertandingan",
+        "homeTeamId": "ID Tim Home",
+        "awayTeamId": "ID Tim Away",
+        "homeTeam": "Tim Home",
+        "awayTeam": "Tim Away",
+        "score": "Skor",
+        "homeTeamScore": "Skor Tim Home",
+        "awayTeamScore": "Skor Tim Away",
+        "vs": "VS",
+        "point": "Poin",
+        "addMatch": "Tambah Pertandingan",
+        "editMatch": "Ubah Pertandingan",
+        "matchSuccessfullyAdded": "Pertandingan berhasil ditambahkan",
+        "matchSuccessfullyEdited": "Pertandingan berhasil diubah",
+        "homeTeamCanNotBeSameWithAwayTeam": "Tim home tidak boleh sama dengan tim away",
+        "awayTeamCanNotBeSameWithHomeTeam": "Tim away tidak boleh sama dengan tim home",
+        "createdAt": "Dibuat pada",
+        "updatedAt": "Terakhir diubah pada"
     }
 }

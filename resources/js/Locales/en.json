@@ -78,7 +78,7 @@
         "actions": "Actions",
         "customersNutritions": "Customers Nutritions",
         "nutritions": "Nutritions",
-        "company": "Company, Inc",
+        "company": "LPKN",
         "reload": "Reload",
         "delete": "Delete",
         "cancel": "Cancel",
@@ -97,9 +97,10 @@
         "negativeTrend": "Negative Trend",
         "title": {
             "dashboard": "Dashboard",
-            "customer": "Customer",
             "profile": "Profile",
-            "nutrition": "Nutrition"
+            "matches": "Matches",
+            "rankings": "Rankings",
+            "test": "Test"
         },
         "customer": {
             "customer": "Customer",
@@ -131,8 +132,8 @@
             "successfullyDeleted": "Nutrition for {0} is successfully deleted",
             "successfullyEdited": "Nutrition for {0} is successfully edited",
             "successfullyAdded": "Nutrition for {0} is successfully added",
-            "created_at": "Created At",
-            "updated_at": "Updated At",
+            "createdAt": "Created At",
+            "updateAt": "Updated At",
             "downloadPdfSummary": "PDF"
         },
         "profile": {
@@ -148,6 +149,24 @@
             "currentPassword": "Current Password",
             "newPassword": "New Password",
             "confirmPassword": "Confirm Password"
-        }
+        },
+        "match": "Match",
+        "homeTeamId": "Home Team ID",
+        "awayTeamId": "Away Team ID",
+        "homeTeam": "Home Team",
+        "awayTeam": "Away Team",
+        "score": "Score",
+        "homeTeamScore": "Home Team Score",
+        "awayTeamScore": "Away Team Score",
+        "vs": "VS",
+        "point": "Point",
+        "addMatch": "Add a Match",
+        "editMatch": "Edit Match",
+        "matchSuccessfullyAdded": "Match is successfully added",
+        "matchSuccessfullyEdited": "Match is successfully edited",
+        "homeTeamCanNotBeSameWithAwayTeam": "Home team can not be same with away team",
+        "awayTeamCanNotBeSameWithHomeTeam": "Away team can not be same with home team",
+        "createdAt": "Created At",
+        "updateAt": "Updated At"
     }
 }
