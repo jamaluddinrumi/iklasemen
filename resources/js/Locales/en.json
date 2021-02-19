@@ -67,6 +67,14 @@
                 "icon": "Rating {0} of {1}"
             }
         },
+        "rememberMe": "Remember me",
+        "login": "Login",
+        "forgotPassword": "Forgot your password?",
+        "password": "Password",
+        "register": "Register",
+        "alreadyRegistered": "Already registered?",
+        "iAgreeToThe": "I agree to the",
+        "and": "and",
         "dashboard": "Dashboard",
         "logout": "Logout",
         "email": "Email",
@@ -100,7 +108,10 @@
             "profile": "Profile",
             "matches": "Matches",
             "rankings": "Rankings",
-            "test": "Test"
+            "test": "Test",
+            "login": "Login",
+            "resetPassword": "Reset password",
+            "register": "Registration"
         },
         "customer": {
             "customer": "Customer",

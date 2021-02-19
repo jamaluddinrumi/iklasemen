@@ -67,6 +67,14 @@
                 "icon": "Rating {0} of {1}"
             }
         },
+        "rememberMe": "Ingat saya di komputer ini",
+        "login": "Masuk",
+        "forgotPassword": "Lupa password?",
+        "password": "Password",
+        "register": "Daftar",
+        "alreadyRegistered": "Sudah terdaftar?",
+        "iAgreeToThe": "Saya setuju dengan",
+        "and": "dan",
         "dashboard": "Dashboard",
         "logout": "Keluar",
         "name": "Nama",
@@ -100,7 +108,10 @@
             "profile": "Profil",
             "matches": "Pertandingan",
             "rankings": "Klasemen",
-            "test": "Tes"
+            "test": "Tes",
+            "login": "Masuk",
+            "resetPassword": "Reset password",
+            "register": "Pendaftaran"
         },
         "customer": {
             "customer": "Customer",

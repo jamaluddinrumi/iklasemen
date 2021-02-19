@@ -15,7 +15,7 @@
         "inertiajs/inertia-laravel": "^0.2.4",
         "laravel-lang/lang": "~7.0",
         "laravel/framework": "^8.12",
-        "laravel/jetstream": "^1.6",
+        "laravel/jetstream": "^2.0",
         "laravel/passport": "^10.0",
         "laravel/sanctum": "^2.6",
         "laravel/tinker": "^2.5",
