@@ -53,23 +53,23 @@
                         </div></v-card-text
                     >
                     <v-card-actions class="p-4 flex flex-wrap">
-                        <div>
+                        <!-- <div>
                             <v-checkbox
                                 class="form-checkbox"
                                 name="remember"
                                 v-model="remember"
                                 :label="$vuetify.lang.t('$vuetify.rememberMe')"
                             />
-                        </div>
+                        </div> -->
 
                         <div class="flex items-center justify-end mt-4">
-                            <inertia-link
+                            <!-- <inertia-link
                                 v-if="canResetPassword"
                                 :href="route('password.request')"
                                 class="text-button text-decoration-underline text-opacity-60 dark:text-white dark:text-opacity-70"
                             >
                                 {{ $vuetify.lang.t("$vuetify.forgotPassword") }}
-                            </inertia-link>
+                            </inertia-link> -->
 
                             <v-btn
                                 rounded
