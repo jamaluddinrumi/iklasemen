@@ -13,13 +13,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/",
-    "scope": ".",
-    "display": "standalone",
-    "background_color": "#fff",
-    "theme_color": "#fff",
-    "description": "Entry for english premiere league matches",
-    "dir": "ltr",
-    "lang": "id-ID",
-    "offline_enabled": true
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
 }
